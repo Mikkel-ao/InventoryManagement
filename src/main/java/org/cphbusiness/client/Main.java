@@ -1,4 +1,4 @@
-package org.example;
+package org.cphbusiness.client;
 
 public class Main {
     public static void main(String[] args) {
