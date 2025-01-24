@@ -4,7 +4,7 @@ import org.cphbusiness.components.Part;
 
 import java.util.ArrayList;
 
-// TODO: Figure out how I want this interact the program. Client class that class upon mapper class methods?
+// TODO: How should this class interact with the program? What about util mapper class?
 public class InventoryManager {
     private ArrayList<Part> parts;
 
