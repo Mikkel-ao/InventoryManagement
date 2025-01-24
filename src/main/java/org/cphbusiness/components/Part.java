@@ -17,4 +17,12 @@ public abstract class Part {
     public int getQuantity() {
         return quantity;
     }
+
+    public String setName(String name){
+        return this.name = name;
+    }
+
+    public void setQuantity(int quantity){
+        this.quantity = quantity;
+    }
 }
