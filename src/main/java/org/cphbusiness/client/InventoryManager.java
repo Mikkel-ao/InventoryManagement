@@ -1,5 +1,4 @@
 package org.cphbusiness.client;
-
 import org.cphbusiness.components.Part;
 
 import java.util.ArrayList;
@@ -18,5 +17,11 @@ public class InventoryManager {
 
     public void removeProduct(Part part) {
         parts.remove(part);
+    }
+
+    public void checkInventory() {
+        for (Part part : parts) {
+            System.out.println(part.getName() + "\n Quantity: " + part.getQuantity());
+        }
     }
 }
