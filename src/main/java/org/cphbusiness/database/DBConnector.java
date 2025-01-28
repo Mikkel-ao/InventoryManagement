@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 public class DBConnector {
-
+    // TODO: Consider postgreSQL for practice
     private static final String URL = "jdbc:sqlite:database.sqlite";
 
     public Connection connect() {
